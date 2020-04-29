@@ -1,0 +1,3 @@
+/*function controle() {
+alert()
+}*/
