@@ -7,14 +7,14 @@
         <link rel="stylesheet" href="assets/css/style.css"/>
     </head>
     <body>
-        <form name="form1">
+        <form method="post" action="#" id="form1"> <!--method et action sont obligatoires-->
             <label for="firstName">Nom :</label>
-            <input type="text" id="firstName" placeholder="Prénom">
+            <input type="text" id="firstName" placeholder="Prénom"/>
             <label for="lastName">Prénom :</label>
-            <input type="text" id="lastName" placeholder="Nom">
+            <input type="text" id="lastName" placeholder="Nom"/>
             <label for="city">Ville :</label>
-            <input type="text" id="city" placeholder="Ville">
-            <input type="button" name="bouton" value="Ok" onclick="clickfunction();">
+            <input type="text" id="city" placeholder="Ville"/>
+            <input type="submit" name="button" value="Ok" onclick="clickFunction();"/>
         </form>
         <script src="assets/js/script.js"></script>
     </body>
