@@ -8,11 +8,9 @@
     </head>
     <body>
         <form method="post" action="#" id="form1">
-            <label for="shoeSize">Pointure :</label>
-            <input type="text" id="shoeSize" placeholder="Pointure"/>
-            <label for="birthyear">Année de naissance :</label>
-            <input type="number" value="1998" id="birthyear"/>
-            <input type="button" name="bouton" value="Ok" onclick="reste();"/>
+            <label for="old">Quel âge as-tu ? </label>
+            <input type="number" min="0" max="120" id="old" placeholder="Age"/>
+            <input type="button" id="button" value="Ok" onclick="check();"/>
         </form>
         <script src="assets/js/script.js">
         </script>
