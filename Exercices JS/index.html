@@ -7,11 +7,13 @@
         <link rel="stylesheet" href="assets/css/style.css"/>
     </head>
     <body>
-        <!--<body onload="reste();"> Ne fonctionne pas-->
-        <button onclick="reste();"></button>
+        <form method="post" action="#" id="form1">
+            <label for="choose">Choisissez 2 chiffres :</label>
+            <input id="weAreNumberOne" type="number" placeholder="Ici"/>
+            <input id="numberTwo" type="number" placeholder="Là"/>
+            <input type="submit" value="Ok" onclick="reste();"/>
+        </form>
         <script src="assets/js/script.js">
-        /*reste();
-        Ne fonctionne pas*/
         </script>
     </body>
 </html>

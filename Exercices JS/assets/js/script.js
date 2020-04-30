@@ -7,7 +7,10 @@ function reste(){
     var douze = 12;
     var cinq = 5;
     return (douze%cinq);
-}*/ 
+}*/    
+
 function reste(){
- alert(12%5);
+var one = document.getElementById('weAreNumberOne').value;
+var two = document.getElementById('numberTwo').value;
+ alert(one%two);
 }
