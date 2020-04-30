@@ -8,10 +8,13 @@
     </head>
     <body>
         <form name="form1">
-            <input type="text" name="firstName" value="Prénom">
-            <input type="text" name="lastName" value="Nom">
-            <input type="text" name="city" value="Ville">
-            <input type="button" name="bouton" value="Contrôler" onclick="alert('Prénom : ' + document.form1.firstName.value + '\nNom : '+ document.form1.lastName.value + '\nVille : '+ document.form1.city.value)">
+            <label for="firstName">Nom :</label>
+            <input type="text" id="firstName" placeholder="Prénom">
+            <label for="lastName">Prénom :</label>
+            <input type="text" id="lastName" placeholder="Nom">
+            <label for="city">Ville :</label>
+            <input type="text" id="city" placeholder="Ville">
+            <input type="button" name="bouton" value="Ok" onclick="clickfunction();">
         </form>
         <script src="assets/js/script.js"></script>
     </body>
